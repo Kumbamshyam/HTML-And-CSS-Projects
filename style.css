@@ -96,6 +96,7 @@
     align-items: center; 
     height: vh;
     padding: 1px;
+    font-size: 3em;
 }
 
 #submit-post img{
@@ -108,25 +109,21 @@
     inset: 0 0 0 0;
     display: flex;
     justify-content:space-between;
-    width: 20vw;
+    width: 22vw;
 }
-#right-side-nav ul{
+#right-side-nav ul,li{
     display: flex;
     flex-direction: row;
     justify-content: center;
         align-items: center;
     }
-    
-    #right-side-nav button{
-        background-color: black;
-        color: white;
-    }    
 
 
     #right-side-nav img {
-        color:white;
+        color: #ffffff;
         height: 2.4vh;
-    }
+        margin-left: 3px;
+        }
 
 #social-media-nav{
     position: relative;
@@ -134,11 +131,188 @@
     width: auto;
 }
 
-#social-media-nav li {
+#social-media-nav li{
     margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color:black;
+    
+}
+
+#social-media-nav > ul > li > div{
+    text-align: center;
+}
+
+#social-media-nav button{
+    border: 1px solid white;
+    margin-right: 3px;
+    background-color: black;
+    color: white;
+    height: auto;
+    font-size: 0.1em;
+    width: 23em;
+}
+
+#social-media-nav > button > img{
+    height: 1vh;
+}
+
+/* header section */
+
+
+#header{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
 
 }
 
-#social-media-nav ul li {
+#header::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    height: 80vh;
+    background:url(./Images/walk\ image200.jpg ) no-repeat center center; 
+    z-index: -2;
+    opacity: 0.8;
+    
+}
+
+#container{
+    position: relative;
+    height: 80vh;
+    width: auto;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: black 2px 3px 3px;
+}
+
+#header-nav-1{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-nav-1 ul{
+    display: flex;
+    justify-content:space-between;
+    width: 30vw;
+    margin-bottom: 0.9em;
+
+}
+
+#header-nav-1 li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-nav-1 hr{
+    width: 60vw;
+}
+
+#header-nav-1 a {
+    font-size: 0.7em;
+    color: white;
+
+}
+#header-nav-2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-nav-2 ul{
+    display: flex;
+    justify-content:space-between;
+    width: 40vw;
+
+}
+
+#header-nav-2 li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#header-nav-2 a {
+    color: white;
+    font-size: 0.7em;
+}
+
+#header-content{
+    margin-top: 8em;
+    width: 27em;
+    text-align: center;
+}
+
+#header-content h1{
+    text-decoration: underline 0.05px;
+}
+
+#header-nav-3{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+    margin-top: 2em;
+}
+
+#header-nav-3 p{
+    font-size: 0.5em
+}
+
+#header-button{
+    margin-top: 3em;
+}
+
+#header-button > button{
+    background-color: rgb(48, 32, 32);
+    border: 2px solid white;
+    padding: 3px;
+}
+
+#header-button a{
+    color: white;
+}
+
+#main-container{
+    position: relative;
+    inset: 0 0 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    height: auto;
+    width: auto;
+    background-color: rgb(228, 222, 222);
+    z-index: -2;
+}
+
+#main-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 10vw;
+    font-size: 1em;
+    margin: 4em;
+    
 }
