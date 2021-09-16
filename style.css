@@ -745,6 +745,8 @@
     opacity: 0.6;
 }
 
-footer p{
-    font-size: 0.2em;
+#footer-copyright{
+    font-size: 0.6em;
+    margin: 1em 0 1em 0;
+    background: rgb(228, 212, 212);
 }
