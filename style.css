@@ -32,7 +32,7 @@
     background-color: black;
     z-index: -1;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #main-navbar{
@@ -169,6 +169,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    width: 100%;
     
 
 }
@@ -181,6 +182,7 @@
     background:url(./Images/walk\ image200.jpg ) no-repeat center center; 
     z-index: -2;
     opacity: 0.8;
+    width: 100%;
     
 }
 
@@ -292,8 +294,8 @@
     position: relative;
     inset: 0 0 0 0; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin: 0 10em 5em 10em;
 }
 
 #main-container::before{
@@ -302,17 +304,447 @@
     inset: 0 0 0 0;
     height: auto;
     width: auto;
-    background-color: rgb(228, 222, 222);
+    /* background-color: rgb(228, 222, 222); */
     z-index: -2;
 }
 
-#main-container p{
+#album-1{
+    position: relative;
+    inset: 0 0 0 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: 10vw;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
     font-size: 1em;
-    margin: 4em;
     
+}
+
+#album-1::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 01.svg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-2{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-2::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 2.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+#album-3{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-3::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 3.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-4{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-4::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 4.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-5{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-5::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 5.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-6{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-6::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 6.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-7{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-7::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 7.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-8{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-8::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 3.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+
+#album-9{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-9::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 4.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-10{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-10::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 2.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+
+#album-11{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-11::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 01.svg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+#album-12{
+    position: relative;
+    inset: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh;    */
+    width: 15vw;
+    margin: 3em 0 0 0;
+    font-size: 1em;
+    
+}
+#album-12::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white url(./images/friends\ image\ 5.jpg) no-repeat center top;
+    z-index: -1;
+    height: 50vh;
+    width: 15vw;
+}
+
+
+.albums p{
+    margin-top: 16em;
+    width: 13vw;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.albums-date-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4em 16em 0 0;
+    opacity: 0.7;
+    font-size: 0.2em;
+    width: 11vw;
+}
+
+.albums h2{
+    font-size: 3em;
+    /* margin: -1em 1em 0 0;/ */
+}
+
+.albums p1{
+    margin: 1em 0 0 0 ;
+    font-size: 0.6em;
+}
+
+.albums button a{
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.albums button{
+    margin: 1em 10em 0 0;
+    background-color: rgb(105, 88, 88);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 1px 3px 2px 0px;
+
+}
+
+#celebrations-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 3em 0;
+
+}
+
+
+#footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5em 5em 0   5em ;
+    
+}
+
+#footer-section::before{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background:rgb(231, 227, 227);
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+#footer{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+
+
+#footer-1st-column{
+    font-size:1.5em;
+}
+
+#footer-1st-column p{
+    width: 15vw;
+    font-size: 0.5em;
+    margin: 1em 0 0 0;
+    padding: 0.3em;
+}
+
+#footer-1st-column h6{
+    font-size: 0.4em;
+    margin: 1em 0 0 0;
+    padding: 0.4em;
+}
+
+#footer-social-media{
+    margin: 0 3em 0 3em;
+}
+
+#footer-social-media ul li a{
+    text-align: left;
+    width: 10vw;
+    color: black;
+    font-size: 0.8em;
+}
+
+#footer-social-media li{
+    margin: 0.5em 0 0.5em 0;
+}
+.footer-social-media-logos{
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin: 0 3em 0 0;
+
+}
+.footer-social-media-logos img{
+    margin: 0.5em;
+}
+
+#footer-social-media-twitter h1{
+    display: flex;
+    justify-content:space-between;
+    letter-spacing: 0.2em;
+    font-size:1.3em;
+}
+
+#footer-social-media-twitter{
+    margin: 0 0 0 2em;
+
+}
+
+.social-twitter{
+    position: relative;
+    display: flex;
+    margin: 1.5em 0 0.3em 0;
+    width: 26vh;
+
+}
+
+.social-twitter img{
+    margin: 0 0 2.5em 0;
+}
+
+
+.social-twitter p{
+    font-size: 0.6em;
+    height: 10vh;
+    margin: 0 0 0 1em;
+    opacity: 0.6;
+}
+
+footer p{
+    font-size: 0.2em;
 }
